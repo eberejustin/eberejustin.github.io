@@ -10,14 +10,10 @@ body{
 }
 
 /*Styles for the home page begin*/
-.container{
-	width: 100%;
-	text-align: center;
-}
-
 .home{
 	margin: 10% auto;
 	color: white;
+	text-align: center;
 }
 
 .home h1{
@@ -86,3 +82,33 @@ body{
 /*bio page styles end*/
 
 /*resume page styles begin*/
+.resume{
+	width: 80%;
+	margin: 0px auto;
+	padding: 30px;
+}
+.resume div{
+	margin: 0px;
+	padding: 30px 50px;
+}
+.resume div h1 a{
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	font-size: 1.5em;
+}
+.resume div:nth-child(odd){
+	background-color: black;
+	color: white;
+}
+.resume div:nth-child(even){
+	background-color: white;
+	color: black;
+}
+.experience a{
+	color: #AA0000;
+	text-decoration: none;
+}
+.experience a:hover{
+	color: white;
+}
